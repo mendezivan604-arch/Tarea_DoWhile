@@ -17,3 +17,13 @@ do
     i2++;
 } while (i2 <= 10);
 Console.WriteLine();
+
+//Ejercicio 3
+Console.WriteLine("Ejercicio 3");
+int i3 = 10;
+do
+{
+    Console.WriteLine(i3);
+    i3--;
+} while (i3 >= 1);
+Console.WriteLine();
