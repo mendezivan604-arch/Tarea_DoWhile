@@ -80,3 +80,21 @@ do
     i8++;
 } while (i8 <= 10);
 Console.WriteLine();
+
+//Ejercicio 9
+Console.WriteLine("Ejercicio 9");
+int i9 = 1;
+do
+{
+    if (i9 % 2 == 0)
+    {
+        Console.WriteLine(i9 + " es par");
+    }
+    else
+    {
+        Console.WriteLine(i9 + " es impar");
+    }
+    i9++;
+}
+while (i9 <= 20);
+Console.WriteLine();
