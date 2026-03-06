@@ -213,4 +213,22 @@ do
     }
 
 } while (pass != "1234");
-Console.WriteLine("Menú");
+Console.WriteLine("Acceso permitido");
+Console.WriteLine();
+
+//Ejercicio 16
+Console.WriteLine("Ejercicio 16");
+int numero5;
+int contador3 = 0;
+do
+{
+    Console.Write("Ingrese un número (0 para terminar): ");
+    numero5 = int.Parse(Console.ReadLine());
+
+    if (numero5 % 2 == 0 && numero5 != 0)
+    {
+        contador3++;
+    }
+
+} while (numero5 != 0);
+Console.WriteLine("Cantidad de números pares: " + contador3);
