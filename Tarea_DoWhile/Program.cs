@@ -70,3 +70,13 @@ do
 while (i7 <= 10);
 Console.WriteLine("La suma es: " + suma);
 Console.WriteLine();
+
+//Ejercicio 8
+Console.WriteLine("Ejercicio 8");
+int i8 = 1;
+do
+{
+    Console.WriteLine(i8 + " X 5 = " + (i8 * 5));
+    i8++;
+} while (i8 <= 10);
+Console.WriteLine();
