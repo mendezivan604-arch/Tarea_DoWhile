@@ -57,3 +57,16 @@ do
     i6++;
 } while (i6 <= 10);
 Console.WriteLine();
+
+//Ejercicio 7
+Console.WriteLine("Ejercicio 7");
+int i7 = 1;
+int suma = 0;
+do
+{
+    suma = suma + i7;
+    i7++;
+}
+while (i7 <= 10);
+Console.WriteLine("La suma es: " + suma);
+Console.WriteLine();
