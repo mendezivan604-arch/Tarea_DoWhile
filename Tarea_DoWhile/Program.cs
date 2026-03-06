@@ -288,3 +288,32 @@ Console.WriteLine();
 
 //Ejercicio 20
 Console.WriteLine("Ejercicio 20");
+int numero7;
+int suma3 = 0;
+int contador4 = 0;
+double promedio;
+do
+{
+    Console.Write("Ingrese un número (0 para terminar): ");
+    numero7 = int.Parse(Console.ReadLine());
+
+    if (numero7 != 0)
+    {
+        suma3 += numero7;
+        contador4++;
+    }
+
+} while (numero7 != 0);
+
+if (contador4 > 0)
+{
+    promedio = suma3 / contador4;
+}
+else
+{
+    promedio = 0;
+}
+Console.WriteLine("Suma total: " + suma3);
+Console.WriteLine("Cantidad de números: " + contador4);
+Console.WriteLine("Promedio: " + promedio);
+Console.WriteLine();
