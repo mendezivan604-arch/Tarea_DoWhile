@@ -175,3 +175,14 @@ do
 } while (numero3 != 0);
 Console.WriteLine("El número mayor ingresado fue: " + mayor);
 Console.WriteLine();
+
+//Ejercicio 15
+Console.WriteLine("Ejercicio 15");
+int numero4;
+do
+{
+    Console.Write("Ingrese un número positivo: ");
+    numero4 = int.Parse(Console.ReadLine());
+
+} while (numero4 <= 0);
+Console.WriteLine("Número válido ingresado: " + numero4);
