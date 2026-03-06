@@ -274,6 +274,17 @@ Console.WriteLine();
 
 //Ejercicio 19
 Console.WriteLine("Ejercicio 19");
+int numero6;
+int i19 = 1;
+Console.Write("Ingrese un número: ");
+numero6 = int.Parse(Console.ReadLine());
+do
+{
+    Console.WriteLine(numero6 + " x " + i19 + " = " + (numero6 * i19));
+    i19++;
+
+} while (i19 <= 10);
+Console.WriteLine();
 
 //Ejercicio 20
 Console.WriteLine("Ejercicio 20");
