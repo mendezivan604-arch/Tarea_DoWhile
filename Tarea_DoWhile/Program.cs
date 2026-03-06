@@ -64,7 +64,7 @@ int i7 = 1;
 int suma = 0;
 do
 {
-    suma = suma + i7;
+    suma += i7;
     i7++;
 }
 while (i7 <= 10);
@@ -123,4 +123,19 @@ do
     i11++;
 } while (i11 <= 5);
 Console.WriteLine("Total: " + total);
+Console.WriteLine();
+
+//Ejercicio 12
+Console.WriteLine("Ejercicio 12");
+int numero1;
+int suma1 = 0;
+do
+{
+    Console.Write("Ingrese un número (0 para terminar): ");
+    numero1 = int.Parse(Console.ReadLine());
+
+    suma1 += numero1;
+
+} while (numero1 != 0);
+Console.WriteLine("La suma total es: " + suma1);
 Console.WriteLine();
