@@ -237,3 +237,36 @@ Console.WriteLine();
 
 //Ejercicio 17
 Console.WriteLine("Ejercicio 17");
+int opcion;
+
+do
+{
+    Console.WriteLine("MENU");
+    Console.WriteLine("1. Mostrar saludo");
+    Console.WriteLine("2. Mostrar número aleatorio");
+    Console.WriteLine("0. Salir");
+
+    Console.Write("Elija una opción: ");
+    opcion = int.Parse(Console.ReadLine());
+
+    switch (opcion)
+    {
+        case 1:
+            Console.WriteLine("Hola, bienvenido al programa");
+            break;
+
+        case 2:
+            Random r = new Random();
+            Console.WriteLine("Número aleatorio: " + r.Next(1, 101));
+            break;
+
+        case 0:
+            Console.WriteLine("Saliendo del programa...");
+            break;
+
+        default:
+            Console.WriteLine("Opción no válida");
+            break;
+    }
+
+} while (opcion != 0);
