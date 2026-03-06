@@ -98,3 +98,15 @@ do
 }
 while (i9 <= 20);
 Console.WriteLine();
+
+//Ejercicio 10
+Console.WriteLine("Ejercicio 10");
+int i10 = 1;
+int cantidad = 0;
+do
+{
+    i10++;
+    cantidad++;
+} while (i10 <= 50);
+Console.WriteLine("Cantidad: " + cantidad);
+Console.WriteLine();
