@@ -110,3 +110,17 @@ do
 } while (i10 <= 50);
 Console.WriteLine("Cantidad: " + cantidad);
 Console.WriteLine();
+
+//Ejercicio 11
+Console.WriteLine("Ejercicio 11");
+int i11 = 1;
+int total = 0;
+do
+{
+    Console.WriteLine($"Ingrese número {i11}: ");
+    int numero = int.Parse(Console.ReadLine());
+    total += numero;
+    i11++;
+} while (i11 <= 5);
+Console.WriteLine("Total: " + total);
+Console.WriteLine();
