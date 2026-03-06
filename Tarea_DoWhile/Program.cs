@@ -139,3 +139,20 @@ do
 } while (numero1 != 0);
 Console.WriteLine("La suma total es: " + suma1);
 Console.WriteLine();
+
+//Ejercicio 13
+Console.WriteLine("Ejercicio 13");
+int numero2;
+int contador1 = 0;
+do
+{
+    Console.Write("Ingrese un número (0 para terminar): ");
+    numero2 = int.Parse(Console.ReadLine());
+
+    if (numero2 != 0)
+    {
+        contador1++;
+    }
+
+} while (numero2 != 0);
+Console.WriteLine("Cantidad de números ingresados: " + contador1);
