@@ -156,3 +156,22 @@ do
 
 } while (numero2 != 0);
 Console.WriteLine("Cantidad de números ingresados: " + contador1);
+Console.WriteLine();
+
+//Ejercicio 14
+Console.WriteLine("Ejercicio 14");
+int numero3;
+int mayor = 0;
+do
+{
+    Console.Write("Ingrese un número (0 para terminar): ");
+    numero3 = int.Parse(Console.ReadLine());
+
+    if (numero3 > mayor)
+    {
+        mayor = numero3;
+    }
+
+} while (numero3 != 0);
+Console.WriteLine("El número mayor ingresado fue: " + mayor);
+Console.WriteLine();
