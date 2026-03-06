@@ -47,3 +47,13 @@ do
     i5 += 2;
 } while (i5 <= 15);
 Console.WriteLine();
+
+//Ejercicio 6
+Console.WriteLine("Ejercicio 6");
+int i6 = 1;
+do
+{
+    Console.WriteLine(i6 + " = " + (i6 * i6));
+    i6++;
+} while (i6 <= 10);
+Console.WriteLine();
