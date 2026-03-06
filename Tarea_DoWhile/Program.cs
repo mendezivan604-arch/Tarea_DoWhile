@@ -186,3 +186,31 @@ do
 
 } while (numero4 <= 0);
 Console.WriteLine("Número válido ingresado: " + numero4);
+
+//Ejercicio 16
+Console.WriteLine("Ejercicio 16");
+string pass;
+int intentos1 = 0;
+do
+{
+    Console.WriteLine("Ingrese contraseña: ");
+    pass = Console.ReadLine();
+    intentos1++;
+    if (intentos1 == 3)
+    {
+        Console.WriteLine("Acceso bloqueado");
+        break;
+    }
+    else if (pass != "1234")
+    {
+        Console.WriteLine("Contraseña incorrecta, intente de nuevo");
+        Console.WriteLine("Intentos: " + intentos1);
+    }
+    else
+    {
+        Console.WriteLine("Contraseña correcta");
+        Console.WriteLine("Acceso permitido");
+    }
+
+} while (pass != "1234");
+Console.WriteLine("Menú");
