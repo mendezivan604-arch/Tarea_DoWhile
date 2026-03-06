@@ -216,8 +216,8 @@ do
 Console.WriteLine("Acceso permitido");
 Console.WriteLine();
 
-//Ejercicio 16
-Console.WriteLine("Ejercicio 16");
+//Ejercicio 17
+Console.WriteLine("Ejercicio 17");
 int numero5;
 int contador3 = 0;
 do
@@ -235,8 +235,8 @@ Console.WriteLine("Cantidad de números pares: " + contador3);
 Console.WriteLine();
 
 
-//Ejercicio 17
-Console.WriteLine("Ejercicio 17");
+//Ejercicio 18
+Console.WriteLine("Ejercicio 18");
 int opcion;
 
 do
@@ -270,3 +270,10 @@ do
     }
 
 } while (opcion != 0);
+Console.WriteLine();
+
+//Ejercicio 19
+Console.WriteLine("Ejercicio 19");
+
+//Ejercicio 20
+Console.WriteLine("Ejercicio 20");
