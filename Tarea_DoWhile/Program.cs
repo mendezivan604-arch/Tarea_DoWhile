@@ -232,3 +232,8 @@ do
 
 } while (numero5 != 0);
 Console.WriteLine("Cantidad de números pares: " + contador3);
+Console.WriteLine();
+
+
+//Ejercicio 17
+Console.WriteLine("Ejercicio 17");
