@@ -37,3 +37,13 @@ do
     i4+=2;
 } while (i4 <= 20);
 Console.WriteLine();
+
+//Ejercicio 5
+Console.WriteLine("Ejercicio 5");
+int i5 = 1;
+do
+{
+    Console.WriteLine(i5);
+    i5 += 2;
+} while (i5 <= 15);
+Console.WriteLine();
