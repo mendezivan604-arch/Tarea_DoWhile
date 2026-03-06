@@ -6,3 +6,14 @@ do
     Console.WriteLine(i);
     i++;
 } while (i <= 5);
+Console.WriteLine();
+
+//Ejercicio 2
+Console.WriteLine("Ejercicio 2");
+int i2 = 1;
+do
+{
+    Console.WriteLine(i2);
+    i2++;
+} while (i2 <= 10);
+Console.WriteLine();
